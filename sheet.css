@@ -1,0 +1,38 @@
+.customButton {
+            border: 1px solid gray;
+            padding: 2px 6px 2px 6px;
+            cursor: pointer;
+        }
+
+        .customButton:hover {
+            border: 1px solid black;
+            box-shadow: gray 2px 2px 5px;
+        }
+		body{
+		margin:200px;
+		background-color:skyblue;}
+		
+		#main{
+		background-color:lavender;
+		padding:30px;
+		box-shadow: 2px 2px 5px 5px gray;
+		border-radius: 25px;
+		}
+		.customButton{
+		background-color:crimson;
+		padding:10px;
+		border-radius: 10px;
+		}
+		.customButton:hover{
+		background-color:red;
+		border: 2px solid crimson;
+		font-weight:bold;
+		}
+		h1{
+		text-align:center;
+		color:crimson;
+		animation: newanime 5s infinite;
+		}
+		@keyframes newanime {
+		50% {text-shadow: 2px 2px 3px grey;}
+		}
